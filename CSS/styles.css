@@ -1,0 +1,226 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+   
+    color: rgb(0, 0, 0);
+}
+
+.content{
+    background-color: #5f5f5f;
+}
+
+.container-form {
+    display: flex;
+    justify-content: space-around;
+    transition:  all .5s ease-out;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message {
+    padding: 1rem;
+}
+
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #000000;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: #5f5f5f;
+}
+
+.formulario {
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgb(51, 51, 51, 0.602);
+    text-align: center;
+}
+::placeholder{
+    color: #fff;
+}
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.iconos {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.border-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.border-icon:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.cuenta-gratis {
+    padding: 2rem 0;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
+}
+
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #222;
+}
+
+/* .sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+} */
+
+/** Contacto **/
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #000000;
+}
+
+.contact-form form button {
+    background: #000000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #363535;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
